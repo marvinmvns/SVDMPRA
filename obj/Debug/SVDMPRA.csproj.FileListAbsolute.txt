@@ -1,0 +1,59 @@
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\ResolveAssemblyReference.cache
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\SVDMP_RA.frmclicon.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\SVDMP_RA.frmclicad.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\SVDMP_RA.frmcodim.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\SVDMP_RA.login1.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\SVDMPRA.csproj.GenerateResource.Cache
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\bin\Debug\SVDMPRA.exe
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\bin\Debug\SVDMPRA.pdb
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\SVDMPRA.exe
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\SVDMPRA.pdb
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\SVDMP_RA.frmcadmov.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\tela.Properties.Resources.resources
+C:\SVDMPRA\Sistema\SVDMPRA.exe.config
+C:\SVDMPRA\Sistema\SVDMPRA.exe
+C:\SVDMPRA\Sistema\SVDMPRA.pdb
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\tela.Cliente.frmclimod.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\tela.Móveis.frmcadmov2.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\tela.Móveis.frmmovcons.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\tela.Planta.Frmconpla.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\tela.Planta.frmplancad.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\tela.Geracao3d.frmgeracao.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\tela.Geracao3d.Form2.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\tela.Imoveis.frmaltimo.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\tela.Móveis.frmmodmov.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\tela.Planta.frmmodpla.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\SVDMPRA.exe.licenses
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\tela.Geracao3d.frmnomeset.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\tela.Marcadores.frmmarcador.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\SVDMP_RA.Principal.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\tela.Marcadores.consulmark.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\tela.Geracao3d.frmaltset.resources
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Sistema\SVDMPRA.exe.config
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\SVDMPRA.exe
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\SVDMPRA.pdb
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\ResolveAssemblyReference.cache
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\SVDMP_RA.frmclicon.resources
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\SVDMP_RA.frmclicad.resources
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\tela.Cliente.frmclimod.resources
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\tela.Geracao3d.frmgeracao.resources
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\tela.Geracao3d.Form2.resources
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\tela.Geracao3d.frmaltset.resources
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\tela.Geracao3d.frmnomeset.resources
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\tela.Imoveis.frmaltimo.resources
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\SVDMP_RA.frmcodim.resources
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\SVDMP_RA.frmcadmov.resources
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\SVDMP_RA.login1.resources
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\tela.Marcadores.frmmarcador.resources
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\tela.Marcadores.consulmark.resources
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\SVDMP_RA.Principal.resources
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\tela.Móveis.frmcadmov2.resources
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\tela.Móveis.frmmodmov.resources
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\tela.Móveis.frmmovcons.resources
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\tela.Planta.Frmconpla.resources
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\tela.Planta.frmmodpla.resources
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\tela.Planta.frmplancad.resources
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\tela.Properties.Resources.resources
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\ResGen.read.1.tlog
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\ResGen.write.1.tlog
+D:\bkp\SVDMPRA\SISTEMA E OUTROS\Codigo Fonte\SVDMPRA\obj\Debug\SVDMPRA.exe.licenses

@@ -1,0 +1,27 @@
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Release\ResolveAssemblyReference.cache
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Release\SVDMP_RA.frmclicon.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Release\SVDMP_RA.frmclicad.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Release\SVDMP_RA.frmcodim.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Release\SVDMP_RA.login1.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Release\SVDMP_RA.principal.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Release\SVDMPRA.csproj.GenerateResource.Cache
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Release\SVDMP_RA.frmcadmov.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\bin\Release\SVDMPRA.exe
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\bin\Release\SVDMPRA.pdb
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Release\SVDMPRA.exe
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Release\SVDMPRA.pdb
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Release\tela.Properties.Resources.resources
+C:\SVDMPRA\Sistema\SVDMPRA.exe
+C:\SVDMPRA\Sistema\SVDMPRA.pdb
+C:\SVDMPRA\Sistema\SVDMPRA.exe.config
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Release\tela.Planta.frmplancad.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Release\tela.Planta.Frmconpla.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Release\tela.Móveis.frmcadmov2.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Release\tela.Móveis.frmmovcons.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Release\tela.Cliente.frmclimod.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Release\tela.Planta.frmmodpla.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Release\tela.Móveis.frmmodmov.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Release\SVDMPRA.exe.licenses
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Release\tela.Geracao3d.frmgeracao.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Release\tela.Imoveis.frmaltimo.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Release\tela.Geracao3d.Form2.resources

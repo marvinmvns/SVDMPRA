@@ -1,0 +1,12 @@
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\ResolveAssemblyReference.cache
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\SVDMP_RA.frmclialt.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\SVDMP_RA.frmclicon.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\SVDMP_RA.frmclipesq.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\SVDMP_RA.frmclicad.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\SVDMP_RA.frmcodim.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\SVDMP_RA.frmcadim.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\SVDMP_RA.login1.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\SVDMP_RA.principal.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\SVDM.Properties.Resources.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\SVDMP_RA.teste.resources
+C:\SVDMPRA\Codigo Fonte\SVDMPRA\obj\Debug\SVDMP-RA.csproj.GenerateResource.Cache

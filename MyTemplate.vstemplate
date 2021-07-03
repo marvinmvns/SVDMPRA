@@ -1,0 +1,67 @@
+<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>SVDMP-RA</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>SVDMP-RA</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="SVDMP-RA.csproj" File="SVDMP-RA.csproj" ReplaceParameters="true">
+      <Folder Name="Cliente" TargetFolderName="Cliente">
+        <ProjectItem ReplaceParameters="true" TargetFileName="frmclialt.cs">frmclialt.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="frmclialt.Designer.cs">frmclialt.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="frmclialt.resx">frmclialt.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="frmclicad.cs">frmclicad.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="frmclicad.Designer.cs">frmclicad.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="frmclicad.resx">frmclicad.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="frmclicon.cs">frmclicon.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="frmclicon.Designer.cs">frmclicon.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="frmclicon.resx">frmclicon.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="frmclipes.cs">frmclipes.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="frmclipes.Designer.cs">frmclipes.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="frmclipes.resx">frmclipes.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="teste.cs">teste.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="teste.Designer.cs">teste.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="teste.resx">teste.resx</ProjectItem>
+      </Folder>
+      <Folder Name="Imoveis" TargetFolderName="Imoveis">
+        <ProjectItem ReplaceParameters="true" TargetFileName="frmcadim.cs">frmcadim.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="frmcadim.Designer.cs">frmcadim.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="frmcadim.resx">frmcadim.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="frmcodim.cs">frmcodim.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="frmcodim.Designer.cs">frmcodim.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="frmcodim.resx">frmcodim.resx</ProjectItem>
+      </Folder>
+      <Folder Name="Janela Login" TargetFolderName="Janela Login">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Login.cs">Login.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Login.Designer.cs">Login.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Login.resx">Login.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Menu Principal" TargetFolderName="Menu Principal">
+        <ProjectItem ReplaceParameters="true" TargetFileName="principal.cs">principal.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="principal.Designer.cs">principal.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="principal.resx">principal.resx</ProjectItem>
+      </Folder>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SVDPMRADataSet1.xsd">SVDPMRADataSet1.xsd</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SVDPMRADataSet1.Designer.cs">SVDPMRADataSet1.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SVDPMRADataSet1.xsc">SVDPMRADataSet1.xsc</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SVDPMRADataSet1.xss">SVDPMRADataSet1.xss</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

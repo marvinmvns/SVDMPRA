@@ -1,0 +1,624 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F0F1AE33-B585-4C6C-A073-CC7AA5C94DA6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>tela</RootNamespace>
+    <AssemblyName>SVDMPRA</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>SVDMP_RA.Program</StartupObject>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Sistema\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Sistema\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualC" />
+    <Reference Include="skincrafter_.net2.0_vs2008, Version=3.4.4.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\SkinCrafter3\SkinCrafterDemo\SkinCrafterDotNet\skincrafter_.net2.0_vs2008.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\banco.cs" />
+    <Compile Include="Classes\RA.cs" />
+    <Compile Include="Cliente\frmclicad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente\frmclicad.Designer.cs">
+      <DependentUpon>frmclicad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\frmclimod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente\frmclimod.Designer.cs">
+      <DependentUpon>frmclimod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geracao3d\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geracao3d\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geracao3d\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geracao3d\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geracao3d\Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geracao3d\Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geracao3d\frmnomeset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geracao3d\frmnomeset.Designer.cs">
+      <DependentUpon>frmnomeset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Imoveis\frmmodimo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Imoveis\frmmodimo.Designer.cs">
+      <DependentUpon>frmmodimo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Imoveis\frmaltim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Imoveis\frmaltim.Designer.cs">
+      <DependentUpon>frmaltim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Imoveis\frmcadim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Imoveis\frmcadim.Designer.cs">
+      <DependentUpon>frmcadim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Janela Login\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Janela Login\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Janela Login\Program.cs" />
+    <Compile Include="Marcadores\cadmarc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marcadores\cadmarc.Designer.cs">
+      <DependentUpon>cadmarc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marcadores\consulmark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marcadores\consulmark.Designer.cs">
+      <DependentUpon>consulmark.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu Principal\principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu Principal\principal.Designer.cs">
+      <DependentUpon>principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Móveis\frmcadmov2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Móveis\frmcadmov2.Designer.cs">
+      <DependentUpon>frmcadmov2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Móveis\frmmodmov.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Móveis\frmmodmov.Designer.cs">
+      <DependentUpon>frmmodmov.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Móveis\frmmovcons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Móveis\frmmovcons.Designer.cs">
+      <DependentUpon>frmmovcons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planta\Frmconpla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planta\Frmconpla.Designer.cs">
+      <DependentUpon>Frmconpla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planta\frmmodpla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planta\frmmodpla.Designer.cs">
+      <DependentUpon>frmmodpla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planta\frmplancad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planta\frmplancad.Designer.cs">
+      <DependentUpon>frmplancad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cliente\frmclicon.resx">
+      <DependentUpon>frmclicon.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\frmclicad.resx">
+      <DependentUpon>frmclicad.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\frmclimod.resx">
+      <DependentUpon>frmclimod.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geracao3d\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geracao3d\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geracao3d\Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geracao3d\frmnomeset.resx">
+      <DependentUpon>frmnomeset.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Imoveis\frmmodimo.resx">
+      <DependentUpon>frmmodimo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Imoveis\frmaltim.resx">
+      <DependentUpon>frmaltim.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Imoveis\frmcadim.resx">
+      <DependentUpon>frmcadim.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Janela Login\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marcadores\cadmarc.resx">
+      <DependentUpon>cadmarc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marcadores\consulmark.resx">
+      <DependentUpon>consulmark.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu Principal\principal.resx">
+      <DependentUpon>principal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Móveis\frmcadmov2.resx">
+      <DependentUpon>frmcadmov2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Móveis\frmmodmov.resx">
+      <DependentUpon>frmmodmov.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Móveis\frmmovcons.resx">
+      <DependentUpon>frmmovcons.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planta\Frmconpla.resx">
+      <DependentUpon>Frmconpla.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planta\frmmodpla.resx">
+      <DependentUpon>frmmodpla.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planta\frmplancad.resx">
+      <DependentUpon>frmplancad.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="SVDPMRADataSet.xsc">
+      <DependentUpon>SVDPMRADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SVDPMRADataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SVDPMRADataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SVDPMRADataSet.xss">
+      <DependentUpon>SVDPMRADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SVDPMRADataSet1.xsc">
+      <DependentUpon>SVDPMRADataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SVDPMRADataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SVDPMRADataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SVDPMRADataSet1.xss">
+      <DependentUpon>SVDPMRADataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SVDPMRADataSet2.xsc">
+      <DependentUpon>SVDPMRADataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SVDPMRADataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SVDPMRADataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SVDPMRADataSet2.xss">
+      <DependentUpon>SVDPMRADataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SVDPMRADataSet3.xsc">
+      <DependentUpon>SVDPMRADataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="SVDPMRADataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SVDPMRADataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SVDPMRADataSet3.xss">
+      <DependentUpon>SVDPMRADataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="SVDPMRADataSet4.xsc">
+      <DependentUpon>SVDPMRADataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="SVDPMRADataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SVDPMRADataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SVDPMRADataSet4.xss">
+      <DependentUpon>SVDPMRADataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="SVDPMRADataSet5.xsc">
+      <DependentUpon>SVDPMRADataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="SVDPMRADataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SVDPMRADataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SVDPMRADataSet5.xss">
+      <DependentUpon>SVDPMRADataSet5.xsd</DependentUpon>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Cliente\frmclicon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente\frmclicon.Designer.cs">
+      <DependentUpon>frmclicon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SVDPMRADataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SVDPMRADataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SVDPMRADataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SVDPMRADataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SVDPMRADataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SVDPMRADataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SVDPMRADataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SVDPMRADataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SVDPMRADataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SVDPMRADataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SVDPMRADataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SVDPMRADataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SVDPMRADataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SVDPMRADataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SVDPMRADataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SVDPMRADataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SVDPMRADataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SVDPMRADataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SVDPMRADataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SVDPMRADataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SVDPMRADataSet6.cs">
+      <DependentUpon>SVDPMRADataSet6.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SVDPMRADataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SVDPMRADataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SVDPMRADataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SVDPMRADataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SVDPMRADataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SVDPMRADataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SVDPMRADataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SVDPMRADataSet9.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\marcador.gif" />
+    <None Include="SVDPMRADataSet6.xsc">
+      <DependentUpon>SVDPMRADataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="SVDPMRADataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SVDPMRADataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SVDPMRADataSet6.xss">
+      <DependentUpon>SVDPMRADataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="SVDPMRADataSet7.xsc">
+      <DependentUpon>SVDPMRADataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="SVDPMRADataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SVDPMRADataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SVDPMRADataSet7.xss">
+      <DependentUpon>SVDPMRADataSet7.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\semimagen.jpg" />
+    <None Include="SVDPMRADataSet10.xsc">
+      <DependentUpon>SVDPMRADataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="SVDPMRADataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SVDPMRADataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SVDPMRADataSet10.xss">
+      <DependentUpon>SVDPMRADataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="SVDPMRADataSet11.xsc">
+      <DependentUpon>SVDPMRADataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="SVDPMRADataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SVDPMRADataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SVDPMRADataSet11.xss">
+      <DependentUpon>SVDPMRADataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="SVDPMRADataSet8.xsc">
+      <DependentUpon>SVDPMRADataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="SVDPMRADataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SVDPMRADataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SVDPMRADataSet8.xss">
+      <DependentUpon>SVDPMRADataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="SVDPMRADataSet9.xsc">
+      <DependentUpon>SVDPMRADataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="SVDPMRADataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SVDPMRADataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SVDPMRADataSet9.xss">
+      <DependentUpon>SVDPMRADataSet9.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PNG_transparency_demonstration_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clients-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ico_casa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-furniture-1.2m-2007-tp_9210659475270624290.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rustic-pine-bedroom-furniture-tp_5218944627483942673.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file-manager.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pattern-x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QR-Code.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_PH_depois.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\altavista-ap-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\planta_rc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estante.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AndARScreenshot1282817273178_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icone_clientes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outros_4416_zip_512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO21.jpg" />
+    <None Include="SVDPMRADataSet12.xsc">
+      <DependentUpon>SVDPMRADataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="SVDPMRADataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SVDPMRADataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SVDPMRADataSet12.xss">
+      <DependentUpon>SVDPMRADataSet12.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marcadortst0001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marcadortst00011.jpg" />
+    <None Include="SVDPMRADataSet13.xsc">
+      <DependentUpon>SVDPMRADataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="SVDPMRADataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SVDPMRADataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SVDPMRADataSet13.xss">
+      <DependentUpon>SVDPMRADataSet13.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
